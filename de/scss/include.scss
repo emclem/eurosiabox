@@ -1,0 +1,70 @@
+// COLORS
+$color-facebook: #00F;
+$color-twitter: #AAF;
+$color-instagram: #B71;
+$color-youtube: #F00;
+
+$lightestgrey: #DDD;
+$lightergrey: #AAA;
+$lightgrey: #999;
+$grey: #777;
+$darkgrey: #555;
+$darkergrey: #333;
+$darkestgrey: #252525;
+
+$lightestblue: #a8d1ff;
+$lighterblue: #74aff1;
+$lightblue: #3a86db;
+$blue: #0068b3;
+$darkblue: #004a7f;
+$darkerblue: #00375e;
+$darkestblue: #00233d;
+
+$lightestgreen: #deff85;
+$lightergreen: #ceff47;
+$lightgreen: #a6e300;
+$green: #88c100;
+$darkgreen: #6c9900;
+$darkergreen: #577c00;
+$darkestgreen: #3a5200;
+
+$red: #A00;
+$orange: #F90;
+
+
+
+
+// EXTEND
+%clearspace-extend {
+	padding: 0px;
+	margin: 0px auto;
+}
+
+
+
+// MIXIN
+@mixin clearspace {
+	padding: 0px;
+	margin: 0px auto;
+} 
+@mixin round($radius: 50%) {
+	border-radius: $radius;
+	-o-border-radius: $radius;
+	-ms-border-radius: $radius;
+	-moz-border-radius: $radius;
+	-webkit-border-radius: $radius;	
+}
+@mixin transition($duration: 250ms) {
+	transition: all $duration ease-in;
+	-o-transition: all $duration ease-in;
+	-ms-transition: all $duration ease-in;
+	-moz-transition: all $duration ease-in;
+	-webkit-transition: all $duration ease-in;
+}
+@mixin shadow($thickness: 25px) {
+	box-shadow: 0 0 $thickness 1px rgba(#000, 0.15);
+	-o-box-shadow: 0 0 $thickness 1px rgba(#000, 0.2);
+	-ms-box-shadow: 0 0 $thickness 1px rgba(#000, 0.15);
+	-moz-box-shadow: 0 0 $thickness 1px rgba(#000, 0.15);
+	-webkit-box-shadow: 0 0 $thickness 1px rgba(#000, 0.15);
+}

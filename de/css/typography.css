@@ -1,0 +1,23 @@
+/* ========================================================================
+   Component: Typography
+ ========================================================================== */
+@font-face {
+  font-family: 'Campton Bold';
+  src: url('../fonts/Campton-BoldDEMO.otf');
+}
+@font-face {
+  font-family: 'Campton Light';
+  src: url('../fonts/Campton-LightDEMO.otf');
+}
+html, body {
+	font-family: "Campton Light";
+}
+.text-b {
+	font-family: "Campton Bold", sans-serif;
+}
+.text-l {
+	font-family: "Campton Light";
+}
+.text-n {
+	font-family: 'Open Sans', sans-serif;
+}
